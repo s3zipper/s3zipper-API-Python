@@ -41,7 +41,7 @@ We will need tokens to securely access the rest of the API. Please save this tok
 
 - All tokens last for 24 hours.
 
-```
+```python
 # -*- coding: utf-8 -*-
 import requests
 url = "https://api.s3zipper.com/gentoken"
@@ -62,7 +62,7 @@ The API currently supports two generally desired modes:
 
 **zipstart:**  will zip files back into the same originating bucket and issue a download URL when done.
 
-```
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import requests
@@ -88,7 +88,7 @@ print(zipstart_output)
 
  **streamzip:**  will generate a URL that can later be used to stream download files on a browser.
 
- ```
+ ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import requests
@@ -115,7 +115,7 @@ print(zipstart_output)
 Some jobs can take quite a bit, and you might want to know their progress.  With this API call, you will get to know if the process completed successfully or if it is still running.
 - For this, we will need the result from step 4.
 
-```
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import requests
@@ -140,7 +140,7 @@ The API provides a background task that just listens and waits for the result. W
 - This is good if you need to automate things a bit. A good example is if you need to wait and send customized emails containing the result.
 - This also consumes the result from step 4.
 
-```
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import requests
