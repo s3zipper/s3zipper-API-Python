@@ -1,4 +1,4 @@
-# S3zipper(API)
+# S3zipper-API
 S3zipper is a managed zipping service for Amazon S3.  
 It is a lightweight API but robust in its capabilities.
 It can handle zipping many Gigabytes of data efficiently.
@@ -163,4 +163,3 @@ There it is! This API is more than three years in development, and we are puttin
 For now, it is intended to be a simple and relatively cheap API that just works and makes things easy.
 
 More examples with different programming languages are available in [Documentation](https://docs.s3zipper.com/)
-# s3zipper-API-Python
