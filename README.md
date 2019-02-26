@@ -1,7 +1,3 @@
-# Amazon s3 zipping service(API)
-
-## S3zipper API using Python
-
 # S3zipper(API)
 S3zipper is a managed zipping service for Amazon S3.  
 It is a lightweight API but robust in its capabilities.
