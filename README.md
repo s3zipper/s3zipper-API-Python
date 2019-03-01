@@ -156,7 +156,7 @@ print(zipstate_output)
 
 ```
 
-## Conlusion
+## Conclusion
 
 There it is! This API is more than three years in development, and we are putting a lot of effort into it to make sure that it gets even better. Our hope is to make it a de facto zipping service for busy people.
 
